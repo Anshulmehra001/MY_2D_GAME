@@ -7,6 +7,7 @@ Seamless Transitions: Smooth fade-in/fade-out effects for a polished user experi
 Cutscenes & Transitions: In-game cutscenes and level transitions to advance the narrative.
 Cheat Menu: A built-in "Master Control" cheat menu to jump directly to any level.
 Robust Asset Handling: Gracefully handles missing image files by substituting them with placeholders to prevent crashes.
+
 🛠️ Installation
 To play this game, you'll need Python and the Pygame library installed on your system.
 1. Prerequisites:
@@ -29,7 +30,8 @@ code
 Bash
 python main.py
 (Note: Rename your main game file to main.py if it has a different name.)
-2. Controls:
+
+4. Controls:
 Action	Key / Input	Description
 Navigate Menu	Mouse	Hover over buttons and click to select.
 Start Game	Click "Start Game"	Begin the adventure from Level 1.
@@ -55,16 +57,9 @@ Code
 ├── ... (other level modules from level4 to level10)
 └── main.py
 🔧 Development
+
 The game is designed with a modular structure, where each level's logic can be contained in its own Python file.
 Game States: The main loop (main_game_loop) manages the overall game state, switching between the intro, main menu, gameplay, victory/game over screens, and the cheat menu.
 Level Loading: The game dynamically imports level modules (level_logic.py, level4.py, etc.) based on the current_level variable. This makes it easy to add new levels without modifying the core game loop.
 Music Manager: A simple music manager (play_music) handles loading and playing background tracks, ensuring music changes smoothly between game states.
-🤝 Contributing
-Contributions are welcome! If you have ideas for new features, levels, or bug fixes, feel free to fork the repository and submit a pull request.
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-📜 License
-This project is open source and available to everyone.
+
