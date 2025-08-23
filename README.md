@@ -16,7 +16,7 @@ Game Assets: Clone or download this repository to get all the necessary code and
 2. Clone the Repository:
 code
 Bash
-git clone https://github.com/your-username/doraemon-nobitas-visionary-swordsmen.git
+git clone https://github.com/Anshulmehra001/MY_2D_GAME.git
 cd doraemon-nobitas-visionary-swordsmen
 3. Install Pygame:
 Open your terminal or command prompt and run the following command:
